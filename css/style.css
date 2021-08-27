@@ -8,12 +8,12 @@ html {
   overflow-x: hidden;
 }
 body {
-  font-family: "Montserrat", sans-serif;
+  background-color: black;
 }
 .container {
   /* height: 100%; */
   margin: 0 auto;
-  padding: 0 2rem;
+  margin-top: 15rem;
   /* margin-bottom: 12rem; */
 }
 .grid-container {
@@ -29,17 +29,20 @@ body {
 
 /* HERO SECTION */
 .heading-primary {
-  display: flex;
+  display: none;
   justify-content: center;
+  font-family: "Noto Sans", sans-serif;
+
   /* margin: 0 0 2rem 0; */
   /*TEMP*/
   /* display: none; */
 }
 .heading-question {
-  font-size: 20rem;
-  font-weight: 100;
+  font-size: 15rem;
+  /* font-family: "Montserrat"; */
+  font-weight: 400;
   letter-spacing: 0.58rem;
-  color: #333;
+  color: WHITE;
 }
 .name {
   color: orange;
@@ -50,10 +53,12 @@ body {
   justify-content: flex-end;
 }
 .content {
-  font-size: 2rem;
   font-weight: 500;
   line-height: 1.6;
   width: 80%;
+  color: #ccc;
+  font-family: "Montserrat";
+  font-weight: 400;
   /*TEMP*/
   /* flex-direction: column; */
 }
@@ -62,12 +67,13 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .musaib-photo {
-  width: 50%;
-  border-radius: 46%;
+  width: 45%;
+  border-radius: 10%;
   box-shadow: 0 3.2rem 6.4rem rgb(0 0 0 / 6%);
-  border: 1px solid #e6e6e6;
+  border: 1px solid #fff;
 }
 /*TEMP*/
 /* .question {
@@ -78,22 +84,23 @@ body {
 /* NAVIGATION */
 .navbar {
   overflow: hidden;
-  background-color: #fff;
+  background-color: black;
   position: fixed;
   bottom: 0;
   width: 100%;
   padding: 1.2rem 0 1.2rem 0;
-  border-top: 1.5px solid black;
+  border-top: 3px solid orange;
 }
 .mobile-navbar {
   display: none;
   /* overflow: hidden; */
-  background-color: #fff;
+  background-color: black;
   position: fixed;
   bottom: 0;
   width: 100%;
   padding: 1.2rem 0 1.2rem 0;
   border-top: 1.5px solid black;
+  border-top: 3px solid orange;
 }
 .navbar-items {
   display: flex;
@@ -104,7 +111,25 @@ body {
 .navbar-item {
   display: inline-block;
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 1.5rem;
   font-weight: 600;
+  font-family: "Montserrat";
+}
+
+.question {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 10rem;
+  padding-left: 1.5rem;
+}
+
+.text {
+  font-size: 2rem;
+  padding: 0 1.5rem;
+  line-height: 1.8;
+  font-weight: 500;
+}
+
+.icon {
+  filter: invert(100%);
 }

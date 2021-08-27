@@ -1,81 +1,91 @@
-@media (max-width: 81em) {
+@media (max-width: 96.2em) {
   html {
     font-size: 55%;
   }
-}
-@media (max-width: 71em) {
-  html {
-    font-size: 48%;
+  .text {
+    font-size: 2.3rem;
   }
-  .heading-primary {
-    margin-bottom: 6rem;
-  }
-  .content {
-    font-size: 2.2rem;
+  .navbar-item {
+    font-size: 1.8rem;
   }
 }
-@media (max-width: 62em) {
+@media (max-width: 76.25em) {
   html {
-    font-size: 40%;
+    font-size: 45%;
   }
-  .content {
-    font-size: 2.4rem;
+  .grid-container {
+    margin-top: 27rem;
   }
   .navbar-item {
     font-size: 2rem;
   }
 }
-@media (max-width: 51em) {
+@media (max-width: 69.56rem) {
+  html {
+    font-size: 40%;
+  }
+  .grid-container {
+    margin-top: 35rem;
+  }
+  .navbar-item {
+    font-size: 2.4rem;
+  }
+}
+@media (max-width: 60rem) {
   html {
     font-size: 35%;
   }
-  .heading-question {
-    margin-top: 5rem;
+  .text {
+    font-size: 2.6rem;
   }
-  .content {
-    font-size: 2.7rem;
-  }
-  .heading-primary {
-    margin-bottom: 10rem;
+  .navbar-item {
+    font-size: 2.8rem;
   }
 }
-@media (max-width: 44em) {
-  .heading-question {
-    margin-top: 5rem;
-    font-size: 15rem;
+
+@media (max-width: 50rem) {
+  .question {
+    font-size: 8rem;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 40rem) {
+  .question {
+    display: none;
   }
   .heading-primary {
-    margin-bottom: 5rem;
+    display: flex;
+  }
+  .container {
+    margin-top: 5rem;
+  }
+  .grid {
+    gap: 7rem;
   }
   .grid--2-cols {
     grid-template-columns: 1fr;
-    gap: 5rem;
   }
-  .content-container {
-    justify-content: center;
+  .grid-container {
+    margin-top: 0;
   }
   .musaib-photo {
     width: 30%;
+  }
+  .heading-question {
+    font-size: 10rem;
+    margin-bottom: 10rem;
+  }
+  .content-container {
+    justify-content: center;
   }
   .myimage {
     grid-row: 1;
   }
 }
-@media (max-width: 34em) {
-  .heading-question {
-    margin-top: 5rem;
-    font-size: 13rem;
-    margin-bottom: 5rem;
-  }
-  .grid--2-cols {
-    gap: 5rem;
-  }
-}
 @media (max-width: 26em) {
   .heading-question {
-    margin-top: 15rem;
     font-size: 9rem;
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
     font-weight: 200;
   }
   .content {
@@ -106,11 +116,10 @@
 }
 @media (max-width: 20em) {
   .heading-question {
-    margin-top: 15rem;
     font-size: 7.2rem;
     margin-bottom: 5rem;
   }
   .content {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
