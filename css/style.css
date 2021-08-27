@@ -87,12 +87,12 @@ body {
 .mobile-navbar {
   display: none;
   /* overflow: hidden; */
-  background-color: #f1f3f5;
+  background-color: #fff;
   position: fixed;
   bottom: 0;
   width: 100%;
   padding: 1.2rem 0 1.2rem 0;
-  border-top: 2px solid black;
+  border-top: 1.5px solid black;
 }
 .navbar-items {
   display: flex;
