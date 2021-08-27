@@ -5,8 +5,60 @@
 }
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 body {
   background-color: black;
+}
+.main-container {
+  width: 80%;
+  margin: 50vh auto;
+  transform: translateY(-50%);
+}
+
+.container {
+  overflow: hidden;
+  width: 100%;
+  border-radius: 1rem;
+  background-color: #ddd;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  font-family: "Montserrat";
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  color: white;
+}
+.skill-name {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.html {
+  width: 90%;
+  background-color: #cc8400;
+} 
+.css {
+  width: 90%;
+  background-color: #cc8400;
+} 
+.mysql {
+  width: 50%;
+  background-color: #cc8400;
+} 
+.java {
+  width: 80%;
+  background-color: #cc8400;
+}
+
+.clanguage {
+  width: 70%;
+  background-color: #cc8400;
+}
+.cplusplus {
+  width: 85%;
+  background-color: #cc8400;
 }
