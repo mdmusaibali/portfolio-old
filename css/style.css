@@ -78,11 +78,12 @@ body {
 /* NAVIGATION */
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #fff;
   position: fixed;
   bottom: 0;
   width: 100%;
   padding: 1.2rem 0 1.2rem 0;
+  border-top: 1.5px solid black;
 }
 .mobile-navbar {
   display: none;
@@ -103,7 +104,7 @@ body {
 .navbar-item {
   display: inline-block;
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 1.5rem;
   font-weight: 600;
 }
