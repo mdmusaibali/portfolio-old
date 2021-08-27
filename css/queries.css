@@ -1,0 +1,97 @@
+@media (max-width: 81em) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 71em) {
+  html {
+    font-size: 48%;
+  }
+  .heading-primary {
+    margin-bottom: 6rem;
+  }
+  .content {
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 62em) {
+  html {
+    font-size: 40%;
+  }
+  .content {
+    font-size: 2.4rem;
+  }
+  .navbar-item {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 51em) {
+  html {
+    font-size: 35%;
+  }
+  .heading-question {
+    margin-top: 5rem;
+  }
+  .content {
+    font-size: 2.7rem;
+  }
+  .heading-primary {
+    margin-bottom: 10rem;
+  }
+}
+@media (max-width: 44em) {
+  .heading-question {
+    margin-top: 5rem;
+    font-size: 15rem;
+  }
+  .heading-primary {
+    margin-bottom: 5rem;
+  }
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
+  .content-container {
+    justify-content: center;
+  }
+  .musaib-photo {
+    width: 30%;
+  }
+  .myimage {
+    grid-row: 1;
+  }
+}
+@media (max-width: 34em) {
+  .heading-question {
+    margin-top: 5rem;
+    font-size: 13rem;
+    margin-bottom: 5rem;
+  }
+  .grid--2-cols {
+    gap: 5rem;
+  }
+}
+@media (max-width: 26em) {
+  .heading-question {
+    margin-top: 15rem;
+    font-size: 9rem;
+    margin-bottom: 5rem;
+    font-weight: 200;
+  }
+  .content {
+    font-size: 2.2rem;
+  }
+  .musaib-photo {
+    width: 35%;
+  }
+}
+@media (max-width: 20em) {
+  .heading-question {
+    margin-top: 15rem;
+    font-size: 7.2rem;
+    margin-bottom: 5rem;
+  }
+  .content {
+    font-size: 2rem;
+  }
+}

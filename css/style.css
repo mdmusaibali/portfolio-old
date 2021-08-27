@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  /* height: 100%; */
+  margin: 0 auto;
+  padding: 0 2rem;
+  /* margin-bottom: 12rem; */
+}
+.grid-container {
+  padding: 0 2rem;
+}
+.grid {
+  display: grid;
+  /* gap: 8rem; */
+}
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* HERO SECTION */
+.heading-primary {
+  display: flex;
+  justify-content: center;
+  /* margin: 0 0 2rem 0; */
+  /*TEMP*/
+  /* display: none; */
+}
+.heading-question {
+  font-size: 20rem;
+  font-weight: 100;
+  letter-spacing: 0.58rem;
+  color: #333;
+}
+.name {
+  color: orange;
+}
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.content {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.6;
+  width: 80%;
+  /*TEMP*/
+  /* flex-direction: column; */
+}
+
+.myimage {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.musaib-photo {
+  width: 50%;
+  border-radius: 46%;
+  box-shadow: 0 3.2rem 6.4rem rgb(0 0 0 / 6%);
+  border: 1px solid #e6e6e6;
+}
+/*TEMP*/
+/* .question {
+  font-size: 6rem;
+  font-weight: 100;
+} */
+
+/* NAVIGATION */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1.2rem 0 1.2rem 0;
+}
+.navbar-items {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar-item {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
