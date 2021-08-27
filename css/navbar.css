@@ -1,0 +1,117 @@
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1.2rem 0 1.2rem 0;
+  border-top: 3px solid orange;
+}
+
+.navbar-items {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar-item {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Montserrat";
+}
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1.2rem 0 1.2rem 0;
+  border-top: 3px solid orange;
+}
+
+.navbar-items {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar-item {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Montserrat";
+}
+.mobile-navbar {
+  display: none;
+  /* overflow: hidden; */
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1.2rem 0 1.2rem 0;
+  border-top: 1.5px solid black;
+  border-top: 3px solid orange;
+}
+.icon {
+  filter: invert(100%);
+}
+/*MEDIA QUERIES*/
+@media (max-width: 96.2em) {
+  html {
+    font-size: 55%;
+  }
+  .navbar-item {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 76.25em) {
+  html {
+    font-size: 45%;
+  }
+  .navbar-item {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 69.56rem) {
+  html {
+    font-size: 40%;
+  }
+  .navbar-item {
+    font-size: 2.4rem;
+  }
+}
+@media (max-width: 60rem) {
+  html {
+    font-size: 35%;
+  }
+  .navbar-item {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 26em) {
+  .navbar {
+    display: none;
+  }
+  .mobile-navbar {
+    display: block;
+  }
+  .mobile-navbar-icons {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  .icon-round {
+    border-radius: 50%;
+    /* background-color: #d0ebff; */
+    background-color: #fff;
+  }
+  .icon {
+    width: 4rem;
+  }
+}
