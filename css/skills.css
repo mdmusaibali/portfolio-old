@@ -12,7 +12,7 @@ body {
 }
 .main-container {
   width: 80%;
-  margin: 50vh auto;
+  margin: 45vh auto;
   transform: translateY(-50%);
 }
 
@@ -40,15 +40,15 @@ body {
 .html {
   width: 90%;
   background-color: #cc8400;
-} 
+}
 .css {
   width: 90%;
   background-color: #cc8400;
-} 
+}
 .mysql {
   width: 50%;
   background-color: #cc8400;
-} 
+}
 .java {
   width: 80%;
   background-color: #cc8400;
