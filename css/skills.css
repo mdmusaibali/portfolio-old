@@ -11,54 +11,283 @@ body {
   background-color: black;
 }
 .main-container {
-  width: 80%;
+  width: 90%;
   margin: 45vh auto;
   transform: translateY(-50%);
 }
 
-.container {
-  overflow: hidden;
-  width: 100%;
-  border-radius: 1rem;
-  background-color: #ddd;
-}
-
-.skills {
+#SkillBox {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 1rem;
+  font-size: 3rem;
   font-family: "Montserrat";
-  padding-top: 0.8rem;
-  padding-bottom: 0.8rem;
   color: white;
 }
-.skill-name {
-  font-size: 3rem;
-  margin-bottom: 1.5rem;
-}
 
-.html {
+.SkillBar {
+  height: 1.5rem;
+  border-radius: 1rem;
+  position: relative;
+  background: #cccccc;
+  margin: 20px auto;
+}
+#Skill-HTML {
   width: 90%;
+  animation: Animate-HTML 4s;
+  -webkit-animation: Animate-HTML 4s;
+  -moz-animation: Animate-HTML 4s;
+  -o-animation: Animate-HTML 4s;
+  border-radius: 1rem;
+  height: 1.5rem;
+  position: absolute;
   background-color: #cc8400;
 }
-.css {
-  width: 90%;
-  background-color: #cc8400;
+@keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%;
+  }
 }
-.mysql {
-  width: 50%;
-  background-color: #cc8400;
+@-webkit-keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%;
+  }
 }
-.java {
+@-moz-keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%;
+  }
+}
+@-o-keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%;
+  }
+}
+#Skill-CSS {
+  animation: Animate-CSS 5s;
+  -webkit-animation: Animate-CSS 5s;
+  -moz-animation: Animate-CSS 5s;
+  -o-animation: Animate-CSS 5s;
   width: 80%;
+  border-radius: 1rem;
+  height: 1.5rem;
+  position: absolute;
   background-color: #cc8400;
+}
+@keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+@-webkit-keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+@-moz-keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+@-o-keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+#Skill-MySQL {
+  animation: Animate-jQuery 5s;
+  -webkit-animation: Animate-jQuery 5s;
+  -moz-animation: Animate-jQuery 5s;
+  -o-animation: Animate-jQuery 5s;
+  width: 65%;
+  border-radius: 1rem;
+  height: 1.5rem;
+  position: absolute;
+  background-color: #cc8400;
+}
+@keyframes Animate-jQuery {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 65%;
+  }
+}
+@-webkit-keyframes Animate-jQuery {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 65%;
+  }
+}
+@-moz-keyframes Animate-jQuery {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 65%;
+  }
+}
+@-o-keyframes Animate-jQuery {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 65%;
+  }
+}
+#Skill-java {
+  animation: Animate-JS 4s;
+  -webkit-animation: Animate-JS 4s;
+  -moz-animation: Animate-JS 4s;
+  -o-animation: Animate-JS 4s;
+  width: 75%;
+  border-radius: 1rem;
+  height: 1.5rem;
+  position: absolute;
+  background-color: #cc8400;
+}
+@keyframes Animate-JS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 75%;
+  }
+}
+@-webkit-keyframes Animate-JS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 75%;
+  }
+}
+@-moz-keyframes Animate-JS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 75%;
+  }
+}
+@-o-keyframes Animate-JS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 75%;
+  }
 }
 
-.clanguage {
-  width: 70%;
+#Skill-clanguage {
+  animation: Animate-JAVA 4s;
+  -webkit-animation: Animate-JAVA 4s;
+  -moz-animation: Animate-JAVA 4s;
+  -o-animation: Animate-JAVA 4s;
+  width: 55%;
+  border-radius: 1rem;
+  height: 1.5rem;
+  position: absolute;
   background-color: #cc8400;
 }
-.cplusplus {
-  width: 85%;
+@keyframes Animate-JAVA {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 55%;
+  }
+}
+@-webkit-keyframes Animate-JAVA {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 55%;
+  }
+}
+@-moz-keyframes Animate-JAVA {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 55%;
+  }
+}
+@-o-keyframes Animate-JAVA {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 55%;
+  }
+}
+#Skill-cplusplus {
+  animation: Animate-PHP 4s;
+  -webkit-animation: Animate-PHP 4s;
+  -moz-animation: Animate-PHP 4s;
+  -o-animation: Animate-PHP 4s;
+  width: 75%;
+  border-radius: 1rem;
+  height: 1.5rem;
+  position: absolute;
   background-color: #cc8400;
+}
+@keyframes Animate-PHP {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 75%;
+  }
+}
+@-webkit-keyframes Animate-PHP {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 75%;
+  }
+}
+@-moz-keyframes Animate-PHP {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 75%;
+  }
+}
+@-o-keyframes Animate-PHP {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 75%;
+  }
 }
