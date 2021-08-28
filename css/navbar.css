@@ -70,6 +70,11 @@
     font-size: 1.8rem;
   }
 }
+@media (max-width: 82rem) {
+  html {
+    font-size: 50.5%;
+  }
+}
 @media (max-width: 76.25em) {
   html {
     font-size: 45%;
@@ -82,6 +87,9 @@
   html {
     font-size: 40%;
   }
+  .heading-primary {
+    margin-bottom: 3rem;
+  }
   .navbar-item {
     font-size: 2.4rem;
   }
@@ -92,6 +100,10 @@
   }
   .navbar-item {
     font-size: 2.8rem;
+  }
+
+  .abouttext {
+    font-size: 3rem;
   }
 }
 
@@ -115,13 +127,22 @@
     /* background-color: #fff; */
     background-color: #fff;
   }
-  .color-invert{
-    filter:none;
+  .color-invert {
+    filter: none;
   }
   .icon {
     width: 4rem;
   }
   .home-large {
     width: 8rem;
+  }
+  .aboutcontainer {
+    padding: 0;
+  }
+  .aboutmain-container {
+    margin: 3rem auto;
+  }
+  .abouttext {
+    font-size: 2.85rem;
   }
 }

@@ -10,3 +10,33 @@ html {
 body {
   background-color: black;
 }
+.aboutmain-container {
+  margin: 15vh auto;
+  width: 90%;
+  /* transform: translateY(-50%); */
+}
+.aboutcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 20rem;
+}
+.heading-primary {
+  font-family: "Montserrat";
+  color: #fff;
+  font-size: 8rem;
+  /* border-bottom: 1px solid orange; */
+}
+.abouttext {
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: white;
+  letter-spacing: 0.2rem;
+  line-height: 1.6;
+}
+u {
+  padding-bottom: 2px;
+  text-decoration: none;
+  border-bottom: 3px solid orange;
+}
