@@ -57,6 +57,7 @@
   border-top: 1.5px solid black;
   border-top: 3px solid orange;
 }
+
 .icon {
   filter: invert(100%);
 }
@@ -100,18 +101,27 @@
   }
   .mobile-navbar {
     display: block;
+    border-top: none;
   }
   .mobile-navbar-icons {
     list-style: none;
+    align-items: center;
     display: flex;
     justify-content: space-around;
   }
   .icon-round {
     border-radius: 50%;
-    /* background-color: #d0ebff; */
+    padding: 1rem;
+    /* background-color: #fff; */
     background-color: #fff;
+  }
+  .color-invert{
+    filter:none;
   }
   .icon {
     width: 4rem;
+  }
+  .home-large {
+    width: 8rem;
   }
 }
