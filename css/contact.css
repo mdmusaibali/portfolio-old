@@ -11,7 +11,10 @@ body {
   background-color: black;
   font-family: "Montserrat";
 }
-
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
 .contactmaincontainer {
   color: white;
 }

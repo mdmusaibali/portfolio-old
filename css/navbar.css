@@ -278,7 +278,7 @@
     padding: 1rem;
   }
   .contactcontainer {
-    margin: 8vh auto;
+    margin: 4vh auto;
     padding: 5rem;
   }
   .socialmainbox {
@@ -291,13 +291,14 @@
     font-size: 2.2rem;
   }
   form {
-    font-size: 2.4rem;
+    font-size: 2.8rem;
   }
   input {
-    font-size: 2rem;
+    font-size: 2.8rem;
+    padding: 2.5rem;
   }
   textarea {
-    font-size: 2rem;
+    font-size: 2.8rem;
   }
   button {
     font-size: 2.8rem;
