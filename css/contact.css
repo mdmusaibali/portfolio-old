@@ -7,13 +7,13 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
 }
-body {
-  background-color: black;
-  font-family: "Montserrat";
-}
 ::-webkit-scrollbar {
   width: 0;
   background: transparent;
+}
+body {
+  background-color: black;
+  font-family: "Montserrat";
 }
 .contactmaincontainer {
   color: white;
