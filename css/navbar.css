@@ -74,6 +74,27 @@
   html {
     font-size: 50.5%;
   }
+  .contactheader {
+    font-size: 7rem;
+  }
+  .contacttext {
+    font-size: 2rem;
+  }
+  form {
+    font-size: 2rem;
+  }
+  input {
+    font-size: 1.8rem;
+  }
+  textarea {
+    font-size: 1.8rem;
+  }
+  button {
+    font-size: 2.4rem;
+  }
+  .socialmainbox {
+    padding-top: 15rem;
+  }
 }
 @media (max-width: 76.25em) {
   html {
@@ -81,6 +102,9 @@
   }
   .navbar-item {
     font-size: 2rem;
+  }
+  .contactgrid {
+    column-gap: 5rem;
   }
 }
 @media (max-width: 69.56rem) {
@@ -92,6 +116,37 @@
   }
   .navbar-item {
     font-size: 2.4rem;
+  }
+  .contactcontainer {
+    margin: 15vh auto;
+  }
+  .contactheader {
+    font-size: 9rem;
+  }
+  .contacttext {
+    font-size: 2.4rem;
+  }
+  form {
+    font-size: 2.4rem;
+  }
+  input {
+    font-size: 2rem;
+  }
+  textarea {
+    font-size: 2rem;
+  }
+  button {
+    font-size: 2.9rem;
+  }
+  .contactgrid {
+    padding: 5rem;
+  }
+  .iconsocial {
+    width: 7rem;
+    height: 7rem;
+  }
+  .socialmainbox {
+    padding-top: 20rem;
   }
 }
 @media (max-width: 60rem) {
@@ -105,11 +160,58 @@
   .abouttext {
     font-size: 3rem;
   }
+  .contactcontainer {
+    margin: 15vh auto;
+  }
 }
 
 @media (max-width: 45.3em) {
   html {
     font-size: 25%;
+  }
+  .contactcontainer {
+    margin: 8vh auto;
+  }
+  .contactheader {
+    font-size: 10rem;
+  }
+  .contacttext {
+    font-size: 4rem;
+  }
+  label {
+    margin-bottom: 3rem;
+  }
+  form {
+    font-size: 4rem;
+  }
+  input {
+    font-size: 4rem;
+  }
+  textarea {
+    font-size: 4rem;
+  }
+  button {
+    font-size: 4rem;
+    padding: 2.2rem 5rem;
+    border-radius: 2rem;
+  }
+  .contactgrid {
+    grid-template-columns: 60fr 40fr;
+  }
+  .iconsocial {
+    width: 8rem;
+    height: 8rem;
+  }
+  .socialmainbox {
+    padding-top: 28rem;
+  }
+}
+@media (max-width: 30em) {
+  .contactgrid {
+    grid-template-columns: 1fr;
+  }
+  .socialmainbox {
+    padding-top: 15rem;
   }
 }
 @media (max-width: 26em) {
@@ -174,6 +276,40 @@
   }
   .aboutconainer {
     padding: 1rem;
+  }
+  .contactcontainer {
+    margin: 8vh auto;
+    padding: 5rem;
+  }
+  .socialmainbox {
+    padding-top: 0;
+  }
+  .contactheader {
+    font-size: 8rem;
+  }
+  .contacttext {
+    font-size: 2.2rem;
+  }
+  form {
+    font-size: 2.4rem;
+  }
+  input {
+    font-size: 2rem;
+  }
+  textarea {
+    font-size: 2rem;
+  }
+  button {
+    font-size: 2.8rem;
+    padding: 1.5rem 4rem;
+    border-radius: 1.5rem;
+  }
+  .contactgrid {
+    grid-template-columns: 1fr;
+  }
+  .iconsocial {
+    width: 5rem;
+    height: 5rem;
   }
 }
 @media (max-width: 22em) {
