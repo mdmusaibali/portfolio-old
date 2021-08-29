@@ -73,6 +73,7 @@ body {
 }
 .omnifoodimage {
   width: 80%;
+  border-radius: 1rem;
 }
 u {
   padding-bottom: 1px;
