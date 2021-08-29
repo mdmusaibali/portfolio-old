@@ -1,0 +1,85 @@
+/* GENERAL COMPONENTS */
+/* background-image: linear-gradient(0deg, #000, #172229),
+linear-gradient(180deg, #000, #000); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body {
+  background-color: black;
+  font-family: "Montserrat";
+}
+.projectscontainer {
+  width: 85%;
+  margin: 0 auto;
+}
+.projectsheadingbox {
+  background-color: black;
+  margin-top: 15rem;
+}
+.projectsheading {
+  color: white;
+  font-size: 6rem;
+  margin-bottom: 2rem;
+  /* font-weight: 600; */
+}
+.projectssubheading {
+  color: #e9ecef;
+  font-size: 2.5rem;
+  margin-bottom: 10rem;
+}
+.omnifoodclone {
+  /* background-color: white; */
+
+  background-image: linear-gradient(180deg, #1f1f1f, #000),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+  box-shadow: 0 2rem 4rem rgba(255, 255, 255, 0.08);
+  color: #e9ecef;
+  border-radius: 1rem;
+}
+.omnifoodheading {
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 8rem;
+  padding-top: 1rem;
+}
+.omnifoodgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding-bottom: 10rem;
+  margin-bottom: 10rem;
+}
+.omnifoodcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2rem;
+  padding: 5rem;
+  line-height: 1.6;
+}
+.omnifoodimagebox {
+  display: flex;
+  justify-content: center;
+  border-radius: 1rem;
+}
+.omnifoodimage {
+  width: 80%;
+}
+u {
+  padding-bottom: 1px;
+  text-decoration: none;
+  border-bottom: 3px solid orange;
+}
+a {
+  text-decoration: none;
+  color: orange;
+}
