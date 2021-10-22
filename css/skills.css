@@ -5,18 +5,24 @@
 }
 html {
   font-size: 62.5%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 body {
   background-color: black;
 }
 .main-container {
-  width: 90%;
-  margin: 45vh auto;
-  transform: translateY(-50%);
+  /* width: 90%; */
+  width: 100%;
+  /* margin: 45vh auto; */
+  /* transform: translateY(-50%); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 #SkillBox {
+  width: 90%;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -29,7 +35,7 @@ body {
   border-radius: 1rem;
   position: relative;
   background: #adb5bd;
-  margin: 20px auto;
+  margin-bottom: 4rem;
 }
 #Skill-HTML {
   width: 90%;
@@ -79,7 +85,7 @@ body {
   -webkit-animation: Animate-CSS 5s;
   -moz-animation: Animate-CSS 5s;
   -o-animation: Animate-CSS 5s;
-  width: 80%;
+  width: 90%;
   border-radius: 1rem;
 
   height: 1.5rem;
@@ -91,7 +97,7 @@ body {
     width: 10px;
   }
   to {
-    width: 80%;
+    width: 90%;
   }
 }
 @-webkit-keyframes Animate-CSS {
@@ -99,7 +105,7 @@ body {
     width: 10px;
   }
   to {
-    width: 80%;
+    width: 90%;
   }
 }
 @-moz-keyframes Animate-CSS {
@@ -107,7 +113,7 @@ body {
     width: 10px;
   }
   to {
-    width: 80%;
+    width: 90%;
   }
 }
 @-o-keyframes Animate-CSS {
@@ -115,7 +121,52 @@ body {
     width: 10px;
   }
   to {
-    width: 80%;
+    width: 90%;
+  }
+}
+
+#Skill-JavaScript {
+  animation: Animate-JavaScript 5s;
+  -webkit-animation: Animate-JavaScript 5s;
+  -moz-animation: Animate-JavaScript 5s;
+  -o-animation: Animate-JavaScript 5s;
+  width: 60%;
+  border-radius: 1rem;
+
+  height: 1.5rem;
+  position: absolute;
+  background-color: #cc8400;
+}
+@keyframes Animate-JavaScript {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%;
+  }
+}
+@-webkit-keyframes Animate-JavaScript {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%;
+  }
+}
+@-moz-keyframes Animate-JavaScript {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%;
+  }
+}
+@-o-keyframes Animate-JavaScript {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%;
   }
 }
 #Skill-MySQL {
